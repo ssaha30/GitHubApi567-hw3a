@@ -9,7 +9,7 @@ class TestGitHubInfo(unittest.TestCase):
     
     def test_github_userinfo_runs(self):
         user = "richkempinski"
-        github_userinfo.showGithubInfo(user)
+        github_userinfo.githubrepo(user)
         self.assertTrue(True)
 
 # Test 2: Test if the user has any repositories
@@ -35,4 +35,5 @@ class TestGitHubInfo(unittest.TestCase):
         self.assertGreaterEqual(len(commits), 0)
 
     
+
 
