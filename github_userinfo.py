@@ -1,7 +1,6 @@
 import requests
 import json
 
-# To get the number of commits 
 def githubrepo(user):
 
     # Get user's repositories
@@ -36,4 +35,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
